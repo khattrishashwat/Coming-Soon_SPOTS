@@ -16,7 +16,7 @@ function CoomingSoon() {
     seconds: 0,
   });
 
-  const targetDate = new Date("January 20, 2025 23:59:59").getTime();
+  const targetDate = new Date("January 27, 2025 23:59:59").getTime();
 
   useEffect(() => {
     const updateCountdown = () => {
@@ -142,7 +142,7 @@ function CoomingSoon() {
                 <span>Coming Soon </span>
               </h2>
               <h3>
-                <span>January 20, 2025</span>
+                <span>January 27, 2025</span>
               </h3>
             </div>
             {/* Countdown Start */}
